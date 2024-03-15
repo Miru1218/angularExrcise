@@ -1,0 +1,70 @@
+<!-- <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 8px;
+    display: flex;
+  }
+
+  .nav-item {
+    float: left;
+  }
+
+  .nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .nav-item a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+</style> -->
+<nav   class=" bg-gray-400 dark:bg-gray-600 flex overflow-hidden justify-between items-center px-4 py-3 ">
+  <ul class="flex m-0 list-none p-2">    
+    <li class="float-left"  *ngFor="let item of routeList">
+      <a *ngIf="item.title"  class="block text-black dark:text-white text-center px-3 py-4 no-underline 
+      hover:bg-gray-200 hover:text-black   " 
+      routerLinkActive="font-black text-lg  bg-gray-500" 
+[routerLink]="item.path">{{item.title}}</a>
+    </li>
+  </ul>
+  <div class="px-2 pt-2 pb-4 md:flex md:p-0 flex justify-between items-center" >
+    <span class="text-black dark:text-white font-semibold p-2">暗黑模式</span>
+    <button class="bg-gray-300 dark:bg-gray-500  rounded-full w-18 p-2" (click)="toggleDarkMode()">      
+     
+        <svg class="h-6 w-12 fill-current" viewBox="0 0 60 24">         
+          <ng-container *ngIf="isDarkMode; else offPath">
+            <path fill-rule="evenodd" d="M48 2a10 10 0 0 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"></path>
+          </ng-container>
+          <ng-template #offPath>
+            <path fill-rule="evenodd" d="M12 2a10 10 0 0 0 0 20 10 10 0 0 0 0-20zm0 18a8 8 0 1 1 0-16 8 8 0 0 1 0 16z"></path>            
+          </ng-template>
+         
+        </svg>
+      
+     </button> 
+   </div>
+</nav>
+
+<router-outlet></router-outlet>
