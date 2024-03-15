@@ -1,0 +1,34 @@
+<p>page4 works!</p>
+
+<div>
+    你選的是: {{result}} 
+    <select (change)="onchange($event)" [value]="result">     
+      <option value="0101">Java Script</option>
+      <option value="0102">Type Script</option>
+      <option value="0103">Angular</option>
+    </select>
+</div>
+
+
+<div (click)="onClick3($event, 'div')">
+    <h3>$event methods</h3>
+    <a (click)="onClick3($event, 'a')" href="http://www.google.com">Google</a>
+</div>
+
+<div (click)="onClick2($event, 'div')">
+    <h3>$event</h3>
+    <button (click)="onClick2($event, 'button') ">
+         Button</button>
+  </div>
+  
+
+
+<div (click)="onClick('div')">
+	<button (click)="onClick('button') ">
+		Button</button>
+</div>
+
+
+
+<button (click)="SayHi()">sayHi</button>
+<button on-click="SayHi()">sayHi</button>
