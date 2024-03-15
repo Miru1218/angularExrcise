@@ -1,0 +1,26 @@
+<h1>summer works!</h1>
+<h1 class="bg-slate-400 hover:bg-slate-500">Summer</h1>
+<h2>June</h2>
+<h3>假期</h3>
+<button>OK</button>
+<button > B1 </button>
+<button >primary</button>
+<button >warning</button>
+<button >success</button>
+<button >error</button>
+<button >button2</button>
+<div >
+    <label for="userName"  >姓名</label>
+    <input type="text" name="userName"  placeholder="輸入姓名" >
+</div>
+<div  >
+    <label for="slSex">性別</label>
+    <select name="slSex" >
+        <option value="1">男</option>
+        <option value="2">女</option>
+    </select>
+</div>
+<div > 
+    <label for="boxLunch">訂便當</label>
+    <input type="checkbox" name="boxLunch"  >    
+</div>
