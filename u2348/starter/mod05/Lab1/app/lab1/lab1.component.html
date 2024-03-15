@@ -1,0 +1,53 @@
+<style>
+    .full-width {
+        width: 100%;
+    }
+
+    mat-form-field {
+        margin: 8px;
+    }
+
+    .inArray {
+        margin: 1px;
+    }
+
+    [matSuffix] {
+        margin-right: 20px;
+    }
+</style>
+<form >
+    <mat-slide-toggle formControlName="enabled" color="primary">帳號啟用</mat-slide-toggle>
+    <mat-form-field class="full-width">
+        <input matInput type="text" placeholder="請輸入使用者帳號" >
+    </mat-form-field>  
+    <mat-form-field class="full-width">
+        <input matInput [type]="pwdType" placeholder="請輸入密碼" >
+        <mat-icon matSuffix (click)="SeePassword()">{{showPWDIcon}}</mat-icon>
+        <mat-hint >長度必須超過 8 個字，必須包含數字與字母</mat-hint>
+    </mat-form-field>
+    <mat-form-field class="full-width">
+        <input matInput [type]="pwdType" placeholder="請確認密碼" >
+        <mat-icon matSuffix (click)="SeePassword()">{{showPWDIcon}}</mat-icon>
+        <mat-hint>再輸入一次密碼，確認您記住了所設定密碼</mat-hint>
+    </mat-form-field>
+    <mat-form-field class="full-width">
+        <input matInput type="text" placeholder="請輸入手機號碼" >
+        <mat-hint>例如:093812345678</mat-hint>
+    </mat-form-field>
+    <mat-form-field class="full-width">
+        <input matInput type="email" placeholder="請輸入email" >
+        <mat-hint>例如:mary@yourcompany.com</mat-hint>
+    </mat-form-field>
+    <mat-form-field class="full-width">
+        <input matInput [matDatepicker]="picker" placeholder="生日" >
+        <mat-hint>MM/DD/YYYY</mat-hint>
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker startView="multi-year" ></mat-datepicker>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="AddNew()" ><mat-icon>fiber_new</mat-icon>新增</button>
+    <button mat-raised-button color="primary" (click)="Saved()" [disabled]="memberForm.invalid"><mat-icon>save</mat-icon>存檔</button>
+</form>
+<!-- 
+<div>{{ member | json}}</div> -->
+<div> {{ memberForm.value | json}}
+</div>

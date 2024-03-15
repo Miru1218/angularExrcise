@@ -1,0 +1,113 @@
+   <h4>
+        <span style="color: #9c683b">Microsoft</span> -  U2348
+    </h4>
+    <h1>
+        新世代Web前端Angular開發實戰Part 2</h1>
+    <h5>
+        The new generation of Web front-end Angular development combat Part 2</h5>
+    <ul>
+        <li>時數：21小時</li>
+        <li>費用：NT$ 20,000</li>
+        <li>點數：5.0</li>
+    </ul>
+<div id="CourseDocument">
+
+    
+    <div class="DocumentBOX Material">
+        <h3 class="Topic">教材</h3>
+        <div class="Content">恆逸專用教材</div>
+    </div>
+
+    
+    <div class="DocumentBOX Objective">
+        <h3 class="Topic">課程目標</h3>
+        <div class="Content"><p>Angular是諸多企業使用的前端開發技術，在人力銀行更是搶手的技能項目。本課程是「U2347：新世代Web前端Angular開發實戰Part 1」的進階課程，將進一步談到非同步運算、程式優化、使用Angular Material、如何無痛升級行動App、驗證/授權以及社群的驗證，以及國際化語言...等進階運用都涵蓋在這門課程中。</p>
+</div>
+    </div>
+
+    
+    <div class="DocumentBOX Target">
+        <h3 class="Topic">適合對象</h3>
+        <div class="Content"><p>網頁開發人員</p>
+</div>
+    </div>
+
+    
+    <div class="DocumentBOX Prerequisites">
+        <h3 class="Topic">預備知識</h3>
+        <div class="Content"><p>需熟悉JavaScript、HTML、CSS及C#、ASP.NET Core </p>
+
+<p>已完成以下課程所具備技術能力</p>
+
+<p>U2754：TypeScript程式語言</p>
+
+<p>U2347：新世代Web前端Angular開發實戰Part 1</p>
+</div>
+    </div>
+
+    
+    <div class="DocumentBOX Outline">
+        <h3 class="Topic">課程內容</h3>
+        <div class="Content"><ol>
+<li><p>認識Angular的非同步機制</p></li>
+<li><p>Angular程式優化–使用的模組與函式庫</p>
+
+<p>●  延遲載入模組</p>
+
+<p>●  特性模組、共享模組 </p>
+
+<p>●  建立與使用模組</p>
+
+<p>●  建立與使用函式庫</p></li>
+<li><p>再探Angular Route </p>
+
+<p>●  根路由/子路由</p>
+
+<p>●  頁面間參數的傳遞與resolve</p>
+
+<p>●  選單的設置</p></li>
+<li><p>Angular UI的優化使用Material</p></li>
+<li><p>Reactive-Form的再進化</p></li>
+<li><p>存取Open Data與資料處理</p>
+
+<p>●  存取Open Data</p>
+
+<p>●  Data Page分頁</p>
+
+<p>●  匯出Excel </p></li>
+<li><p>Angular Web App變成行動版App</p></li>
+<li><p>驗證與授權</p>
+
+<p>●  路由守門員</p>
+
+<p>●  Login/Logout</p>
+
+<p>●  Auth 2.0使用社群帳號登入–以Google為例</p></li>
+<li><p>國際化語系</p>
+
+<p>●  使用Pipe顯示當地文化格式</p>
+
+<p>●  Angular的國際化套件</p>
+
+<p>●  國際化版本的部署</p></li>
+</ol>
+</div>
+    </div>
+
+    
+    <div class="DocumentBOX TowardCertOrExam">
+        <h3 class="Topic">學會技能</h3>
+        <div class="Content"><ol>
+<li>了解如何選取前端開發框架(Framework)，如React、Angular、Vue.js</li>
+<li>使用Angular為您的公司建立內部、外部網站</li>
+<li>能夠透過網頁收集使用者資料，並儲存至資料庫(藉由ASP.NET Core Web API)</li>
+<li>能夠區別何謂前端開發與後端開發</li>
+<li>能夠熟悉開發工具的操作，並善用工具功能加速網站設計</li>
+<li>如何安裝與設定Angular套件，並設定工作環境</li>
+<li>能夠利用瀏覽器進行網頁程式除錯，提升網站錯誤診斷與偵錯的技能</li>
+</ol>
+</div>
+    </div>
+
+    
+</div>
